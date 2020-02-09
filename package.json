@@ -1,0 +1,31 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Web app Comments",
+  "main": "Test comments.js",
+  "dependencies": {
+    "firebase": "^7.8.1",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "save-dev": "0.0.1-security",
+    "server": "^1.0.19",
+    "webpack-dev": "^1.1.1",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "serv": "static build"
+  },
+  "keywords": [
+    "JS",
+    "Test",
+    "app"
+  ],
+  "author": "Viacheslav Yuriev",
+  "license": "ISC"
+}
